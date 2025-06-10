@@ -1,0 +1,31 @@
+body {
+    padding: 0px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #000000;
+  height: 600px;
+  padding: 15px;
+  gap: 5px;
+}
+
+.flex-container > div {
+  background: darkgray;
+  border: 3px solid gray;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.item1 {
+  /* flex:0 1 70%; */
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 70%;
+}
+
+.item2 {
+  /* flex:0 1 30%; */
+  flex-grow: 0;
+  flex-basis: 30%;
+}
