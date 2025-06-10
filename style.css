@@ -2,6 +2,14 @@ body {
     padding: 0px;
 }
 
+pre {
+    color: white;
+}
+
+iframe {
+    background-color: white;
+}
+
 .flex-container {
   display: flex;
   background-color: #000000;
@@ -12,7 +20,6 @@ body {
 
 .flex-container > div {
   background: darkgray;
-  border: 3px solid gray;
   border-radius: 5px;
   padding: 8px;
 }
@@ -29,3 +36,16 @@ body {
   flex-grow: 0;
   flex-basis: 30%;
 }
+
+.info-block {
+    padding: 5px;
+    padding-left: 20px;
+    background-color: black;
+    font-family: monospace;
+    color: white;
+}
+
+.info-block a {
+    color: pink;
+}
+
